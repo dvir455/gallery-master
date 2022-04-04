@@ -5,6 +5,10 @@ body {
 p {
     line-height: 1.75;
 }
+#contact img{
+  height: 320px; 
+  
+}
 a {
     color: #fed136;
 }
@@ -27,6 +31,7 @@ h6 {
 section {
     padding: 100px 0;
 }
+
 section h2.section-heading {
     font-size: 40px;
     margin-top: 0;
@@ -84,7 +89,7 @@ body {
 .offcanvas-aside {
     position: fixed;
     height: 100%;
-    background: red;
+    background: whitesmoke;
     width: 80vw;
     right: -80vw;
     z-index: 10;
@@ -562,8 +567,10 @@ header.masthead .intro-text .intro-heading {
     text-align: center;
 }
 .team-member img {
-    width: 225px;
-    height: 225px;
+    width: 300px;
+    object-fit: cover;
+    background-color: #f8f9fa;
+    height: 300px;
     border: 7px solid white;
 }
 .team-member h4 {
@@ -587,6 +594,7 @@ header.masthead .intro-text .intro-heading {
 footer {
     padding: 25px 0;
     text-align: center;
+    
 }
 footer span.copyright {
     font-size: 90%;
