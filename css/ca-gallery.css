@@ -7,6 +7,8 @@ p {
 }
 #contact img{
   height: 320px; 
+  width: 320px;
+  display: block;
   
 }
 a {
@@ -46,6 +48,9 @@ section h3.section-subheading {
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 @media (min-width: 768px) {
+
+ 
+
     section {
         padding: 150px 0;
     }
@@ -110,6 +115,7 @@ body {
 }
 
 @media (min-width: 575px) {
+
     .offcanvas-btn-open {
         margin-right: 30vw;
     }
@@ -162,7 +168,8 @@ body {
     color: #fed136;
 }
 @media (min-width: 992px) {
-    
+  
+
     #mainNav {
         padding-top: 25px;
         padding-bottom: 25px;
@@ -190,6 +197,7 @@ body {
         font-size: 1.25em;
         padding: 12px 0;
     }
+
    
 }
 header.masthead {
@@ -311,6 +319,8 @@ header.masthead .intro-text .intro-heading {
     z-index: 2;
 }
 @media (min-width: 767px) {
+
+
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
@@ -493,6 +503,7 @@ header.masthead .intro-text .intro-heading {
     margin-bottom: 0;
 }
 @media (min-width: 768px) {
+    
     .timeline:before {
         left: 50%;
     }
@@ -585,6 +596,7 @@ header.masthead .intro-text .intro-heading {
     max-width: 80%;
 }
 @media (max-width: 800px) {
+
     .about-description {
         text-align: center;
         margin-top: 1rem;
@@ -774,4 +786,24 @@ fieldset[disabled] .btn-xl:hover {
 .container {
     padding-right: 0;
     padding-left: 0;
+}
+
+@media screen and (max-width: 1140px) {
+    #contact img{
+        height: 250px;
+        width: 250px;
+        display: block;
+      }
+
+
+}
+
+@media screen and (max-width: 800px) {
+    #contact img{
+        height: 200px;
+        width: 200px;
+        display: block;
+      }
+
+
 }

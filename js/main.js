@@ -14,7 +14,7 @@ function renderGallery() {
     (proj) =>
       `
   <div  class="col-md-4 col-sm-6 portfolio-item"> 
-  <a onclick1="renderModal('${proj.id}')" class="portfolio-link" data-toggle="modal"  href="#${proj.id}"> 
+  <a class="portfolio-link" data-toggle="modal"  href="#${proj.id}"> 
   <div class="portfolio-hover" data-id="${proj.id}"> 
   <div class="portfolio-hover-content"> 
   <i class="fa fa-plus fa-3x "></i>
